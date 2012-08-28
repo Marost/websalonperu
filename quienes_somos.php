@@ -124,20 +124,10 @@
 <div class="espacio_largo"></div>
 </div>              </div></div></div></div>
 
-<div id="todo_footer">
 
-<div class="interior">
+<?php require_once("footer.php"); ?>
 
-<div id="footer">
 
-<div class="contenido_footer">
-
-<p align="center"><a href="index.php">Inicio</a> | <a href="quienes_somos.php">Quienes Somos</a> | <a href="organizacion.php">Organización</a> | <a href="informacion_comercial.php">Información Comercial</a> | <a href="programa_actividades.php">Programa de Actividades</a><br />
-
-<a href="como_llegar.php">Como Llegar</a> | <a href="hoteles_turismo.php">Hoteles y Turismo</a> | <a href="noticias_enlaces.php">Noticias y Enlaces de Interes</a> | <a href="suscripcion-contacto.php">Suscripción y Contacto</a></p>
-</div>
-
-<div class="copy">© Web Design: <a href="http://www.marostdevelopers.com">MAROST</a></div></div></div></div>
 
 <script type="text/javascript">
 <!--

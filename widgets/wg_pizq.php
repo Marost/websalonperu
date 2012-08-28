@@ -24,7 +24,7 @@ jMenu(document).ready(function(){
         <li><a class="menu_item wg_m" href="programa-actividades"><span>Programa de Actividades</span></a></li>
         <li><a class="menu_item wg_m" href="como-llegar"><span>Como Llegar</span></a></li>
         <li><a class="menu_item wg_m" href="hoteles-turismo"><span>Hoteles y Turismo</span></a></li>
-        <li><a class="menu_item wg_m" href="noticias-enlaces-interes"><span>Noticias y Enlaces De Interés</span></a></li>
+        <li><a class="menu_item wg_m" href="noticias"><span>Noticias</span></a></li>
         <li><a class="menu_item wg_m" href="suscripcion-contacto"><span>Suscripción y Contacto</span></a></li>
         <li><a class="menu_item wg_m" href="edicion-anterior"><span>Edición Anterior</span></a></li>
     </ul>

@@ -170,3 +170,4 @@ _notes/
 *.pdf
 *.psd
 fotos/
+*/conexion.php
