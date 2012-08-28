@@ -1,0 +1,774 @@
+@import url("clases.css");
+
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+/*fieldset,*/ form, label, /*legend,*/
+/*table,*/ caption/*, tbody, tfoot, thead, tr, th, td */{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {line-height: 1;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+#focus {outline: 0;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+
+/*---------------------------*/
+
+body{
+	background:#843e0b;
+	font-size:12px;
+	font-family:tahoma;
+}
+
+div#superior{
+	height:150px;
+	background:url(../imagenes/fnd_sup.jpg);
+	background-repeat:repeat-x;
+}
+
+div#sombra_izq_sup{
+	height:150px;
+	width:20px;
+	background:url(../imagenes/sombra_izq_sup.jpg);
+	background-position:left;
+	float:left;
+}
+
+div#sombra_der_sup{
+	height:150px;
+	width:20px;
+	background:url(../imagenes/sombra_der_sup.jpg);
+	background-position:right;
+	float:left;
+}
+
+div#imagen_superior{
+	width:850px;
+	height:150px;
+	float:left;
+	background:url(../imagenes/menu_superior.jpg);
+	background-position:center;
+	border-bottom:1px solid #FFF;
+}
+
+div#content{
+	width:890px;
+	background:url(../imagenes/fondo.jpg);
+	background-repeat:repeat-y;
+	background-position:center;
+	float:left;
+	z-index:1;
+	position:relative;
+}
+
+div#content_pagina{
+	width:850px;
+	padding-left:20px;
+	padding-bottom:15px;
+	padding-right:20px;
+	float:left;
+	z-index:2;
+	position:relative;
+}
+
+div#content_pagina_izq{
+	width:570px;
+	float:left;
+}
+
+div#content_pagina_der{
+	width:240px;
+	float:left;
+}
+div#content_pagina_der2{
+	width:240px;
+	float:left;
+}
+
+div#footer{
+	height:50px;
+	width:890px;
+	margin-left:auto;
+	margin-right:auto;
+	background:url(../imagenes/fondo_footer.jpg);
+	background-position:center;
+	float:left;
+}
+	
+
+/*CLASES*/
+.interior{
+	width:890px;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:0;
+	position:relative;
+}
+
+.contenido_footer{
+	text-align:center;
+	padding-top:10px;
+	padding-left:30px;
+	width:550px;
+	line-height:17px;
+	float:left;
+}
+
+.contenido_footer a:link{
+	font-size:12px;
+	color:#000000;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.contenido_footer a:visited{
+	font-size:12px;
+	color:#000000;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.contenido_footer a:hover{
+	font-size:12px;
+	color:#000000;
+	text-decoration:underline;
+	font-weight:normal;
+}
+
+.copy{
+	padding:15px 30px 0 0;
+	float:right;
+	text-align:center;
+}
+
+.copy a{
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.text_sup_der{
+	width:240px;
+	padding-top:10px;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	float:left;
+}
+
+.info_sombra_der{
+	width:240px;
+	height:23px;
+	background:url(../imagenes/info_sombra_der_sup.jpg);
+	background-position:center;
+	float:left;
+}
+
+.info_contenido_der{
+	text-align:justify;
+	font-size:12px;
+	width:205px;
+	background:url(../imagenes/info_content_der.jpg);
+	float:left;
+	background-position:center;
+	padding-left:20px;
+	padding-right:15px;
+	line-height:17px;
+	text-align:center;
+}
+
+.info_inferior_der{
+	height:17px;
+	width:240px;
+	background:url(../imagenes/info_der_inf.jpg);
+	float:left;
+	background-position:center;
+}
+
+.sup_info_centro{
+	width:530px;
+	height:24px;
+	background:url(../imagenes/sup_info_centro.jpg);
+	float:left;
+	text-transform:uppercase;
+	padding-top:8px;
+	padding-left:25px;
+	font-size:18px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.md_info_centro{
+	width:520px;
+	background:#FFFFFF;
+	float:left;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:20px;
+	text-align:justify;
+	line-height:17px;
+}
+
+.inf_info_centro{
+	width:555px;
+	height:11px;
+	background:url(../imagenes/inf_info_centro.jpg);
+	float:left;
+}
+
+.espacio{
+	height:20px;
+	float:left;
+	width:50px;
+}
+
+.espacio_largo{
+	height:20px;
+	float:left;
+	width:570px;
+}
+
+.link_negro {
+	text-align:right;
+}
+
+.link_negro a:link{
+	font-weight:bold;
+	color:#000000;
+	text-align:right;
+}
+
+.link_negro a:hover{
+	color:#000000;
+	font-weight:bold;
+	text-align:right;
+}
+
+/* MENU */
+
+#menu_contenido_izq{
+	width:250px;
+	float:left;
+	border-top:1px solid #fff;
+	padding-left:10px;
+}
+
+#menu{
+	width:240px;
+	float:left;
+}
+
+#link1{
+	width:195px;
+	padding-left:35px;
+	padding-top:12px;
+}
+
+#links{
+	width:195px;
+	padding-left:35px;
+	padding-top:17px;
+}
+
+
+img#mini_galeria{
+	border:3px solid #666666;
+}
+
+.galeria{
+	width:555px;
+	height:210px;
+	text-align:center;
+	padding-bottom:10px;
+	background:url(../imagenes/galeria/banner/sombra_banner.png);
+}
+
+/* CONTENIDO */
+
+#contenido_info{
+	width:568px;
+	border-top:1px solid #FFF;
+	float:left;
+	padding:10px;
+	z-index:3;
+	position:relative;
+}
+
+/* HORA */
+
+#hora{
+	width:850px;
+	height:30px;
+	float:left;
+}
+
+#hora_lima{
+	width:300px;
+	height:20px;
+	float:left;
+	padding-left:20px;
+	padding-top:10px;
+}
+
+#hora_espania{
+	width:140px;
+	height:20px;
+	float:right;
+	padding-right:20px;
+	text-align:right;
+	padding-top:10px;
+}
+
+#contenido-derecha{
+	width:570px;
+	float:left;
+}
+
+#reloj{
+	font-size:14px;
+	color:#000;
+	font-weight:bold;
+}
+
+#relojespania{
+	width:150px;
+	text-align:right;
+	height:20px;
+}
+
+#texto{
+	width:562px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:14px;
+	border-bottom:1px solid #FFF;
+	padding:5px 0 3px 10px;
+	float:left;
+	line-height:17px;
+}
+
+#texto a{
+	text-decoration:none;
+	color:#000;
+}
+
+#contenido_info_centro{
+	width:560px;
+	padding:5px 5px 5px 5px;
+	text-align:center;
+	float:left;
+	z-index:4;
+	position:relative;
+}
+
+#texto_cotenido{
+	width:420px;
+	float:left;
+	padding:0 0 0 5px;
+	text-align:justify;
+	font-size:13px;
+	line-height:20px;
+}
+
+#texto_cotenido2{
+	width:555px;
+	padding:5px 10px 5px 0;
+	float:left;
+	text-align:justify;
+	font-size:13px;
+	line-height:20px;
+	z-index:5;
+	position:relative;
+}
+
+p.izquierda{ text-align:left;}
+
+#imagen-empresarial{
+	width:150px;
+	z-index:6;
+	position:absolute;
+	left: 410px;
+	top: 13px;
+}
+
+#imagen-cultural{
+	width:150px;
+	z-index:6;
+	position:absolute;
+	left: 415px;
+	top: 29px;
+}
+
+#texto_cotenido2 ul li{
+	list-style-position:inside;
+}
+
+#texto_cotenido2 ul li a{
+	text-decoration:none;
+	font-weight:bold;
+	color:#060;
+}
+
+#imagen_contenido{
+	width:130px;
+	height:130px;
+	float:left;
+	text-align:left;
+	margin:0 0 0 0;
+}
+
+#seguir_leyendo{
+	width:250px;
+	height:20px;
+	float:right;
+	padding-right:10px;
+	padding-top:10px;
+	text-align:right;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#seguir_leyendo{
+	color:#000;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#seguir_leyendo a:hover{
+	color:#000;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.texto_como_llegar{
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#mapa{
+	width:500px;
+	border:2px solid #999;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#texto_chico{
+	width:560px;
+	float:left;
+	font-size:10px;
+	text-align:center;
+	padding-bottom:5px;
+	padding-top:5px;
+	line-height:18px;
+	text-align:justify;
+}
+
+#fotos-nota-prensa{
+	width:565px;
+	float:left;
+	padding:10px 0 10px 0;
+}
+
+#foto{
+	width:550px;
+	float:left;
+	padding:5px;
+	text-align:center;
+}
+
+#patrocinadores{
+	width:570px;
+	height:60px;
+	float:left;
+	text-align:center;
+	padding:15px 0 0 0;
+	background-image:url(../imagenes/fondo-hor-570x60.png);
+}
+
+#patrocinadores-nombre{
+	width:100%;
+	float:left;
+	padding:0 0 7px 0;
+	text-align:center;
+}
+
+#area{
+	width:550px;
+	float:left;
+	padding:0 10px 0 10px;
+}
+
+#area-nombre{
+	width:100%;
+	padding:0 0 10px 0;
+	float:left;
+	text-align:left;
+}
+
+#area-boton{
+	width:130px;
+	float:left;
+	text-align:center;
+}
+
+#area-leyenda{
+	width:360px;
+	float:left;
+	padding:30px 30px 0 30px;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.texto-negrita{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.texto-justificado{
+	text-align:justify;
+	font-size:15px;
+}
+
+.texto-justificado12px{
+	text-align:justify;
+	font-size:12px;
+}
+
+#contenido_resultado{
+	width:400px;
+	float:left;
+	text-align:justify;
+	padding:10px;
+	background:#F60;
+	margin:0 10px 10px 70px;
+	line-height:17px;
+}
+
+.texto_13rojo-Arial{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#F00;
+	font-weight:bold;
+}
+
+/*---------------------------------------------------------------*/
+/*MENU*/
+ul#navmenu,
+ul#navmenu li,
+ul#navmenu ul {
+	margin: 0;
+	width: 210px;
+	list-style: none;
+	z-index:4;
+	float:left;
+}
+
+ul#navmenu li {
+	padding: 0 0 0 30px;
+	display: block !important;
+	position: relative;
+	background-image:url(../imagenes/check.png);
+	background-position:0 5px;
+	background-repeat:no-repeat;
+}
+
+ul#navmenu a {
+	padding: 10px 6px;
+	display: block;
+	background-color:transparent;
+	color: #000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+ul#navmenu a:hover,
+ul#navmenu li:hover a,
+ul#navmenu li.iehover a {
+  background:url(../imagenes/menu.jpg);
+  color: #000;
+  text-align:right;
+}
+
+ul#navmenu li:hover li a,
+ul#navmenu li.iehover li a {
+  background:url(../imagenes/menu.jpg);
+  color: #000;
+}
+
+ul#navmenu li:hover li a:hover,
+ul#navmenu li:hover li:hover a,
+ul#navmenu li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover a {
+  background:url(../imagenes/menu.jpg);
+  color: #000;
+}
+
+ul#navmenu li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li a {
+  background: #EEE;
+  color: #000;
+}
+
+ul#navmenu li:hover li:hover li a:hover,
+ul#navmenu li:hover li:hover li:hover a,
+ul#navmenu li.iehover li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover a {
+  background: #CCC;
+  color: #000;
+}
+
+ul#navmenu li:hover li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li.iehover li a {
+  background: #EEE;
+  color: #000;
+}
+
+ul#navmenu li:hover li:hover li:hover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover li a:hover {
+  background: #CCC;
+  color: #000;
+}
+
+ul#navmenu ul,
+ul#navmenu ul ul,
+ul#navmenu ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 240px;
+
+}
+
+ul#navmenu li:hover ul ul,
+ul#navmenu li:hover ul ul ul,
+ul#navmenu li.iehover ul ul,
+ul#navmenu li.iehover ul ul ul { display: none;}
+
+ul#navmenu li:hover ul,
+ul#navmenu ul li:hover ul,
+ul#navmenu ul ul li:hover ul,
+ul#navmenu li.iehover ul,
+ul#navmenu ul li.iehover ul,
+ul#navmenu ul ul li.iehover ul { display: block;}
+
+.texto-12marron-Arial{ font-size:12px; color:#930; font-weight:bold;}
+
+/* FICHA DE INSCRIPCION */
+form#ficha_inscripcion fieldset{ width:100%; float:left; padding:0 0 5px 0;}
+form#ficha_inscripcion fieldset label{ width:200px; float:left; text-align:right; padding:0 5px 0 0;}
+
+
+/* PANEL NEWS - NOTICIAS PRINCIPAL */
+#news-panel{
+	margin:0 auto;
+	width:500px;
+}
+
+#news-panel h4{
+	font-size:18px;
+	margin:10px 0;
+	text-align:left;
+}
+
+#news-panel .nwp-item{
+	float:left;
+	margin:0 0 10px 0;
+	width:500px;
+	border-bottom:1px dashed #000;
+}
+
+#news-panel .nwp-item .nwpi-imagen{
+	border:2px solid	#fff;
+	float:left;
+	height:100px;
+	margin:10px;
+	width:120px;
+}
+
+#news-panel .nwp-item .nwpi-datos{
+	float:left;
+	margin:10px 0 0 0;
+	text-align:left;
+	width:356px;
+}
+
+#news-panel .nwp-item .nwpi-datos h3 a{
+	color:#C30;
+	font-size:16px;	
+	margin:0 0 10px 0;
+	line-height:150%;
+	text-decoration:none;
+}
+
+#news-panel .nwp-item .nwpi-datos p{
+	line-height:150%;
+}
+
+#news-panel .more-not{
+	text-align:center;
+}
+
+#contenido-social{ width:100%; float:left; padding:5px 0; }
+#contenido-social .cntsc_item{ width:120px; float:left; }
+#contenido-social .cntsc_fecha{ width:150px; float:left; text-align:right; color:#fff; font-weight:bold; }
+
+.noticia_titulo{ 
+	width:100%; 
+	display:block; 
+	float:left; 
+	border-bottom:1px solid #999; 
+	padding:0 0 5px 0; 
+	margin:0 0 5px 0;
+	color:#C30;
+	font-size:24px;	
+}
+
+.noticia_imagen{
+	width:100%;
+	float:left;
+	padding:7px 0;
+	text-align:center;
+}
+
+.noticia_info{
+	width:100%;
+	padding:5px 0;
+	line-height:150%;
+	font-size:14px;
+	text-align:justify;
+}
+
+.noticia_info p{
+	padding:0 0 10px 0;
+}
+
+#slider_superior{ 
+	width:550px; 
+	position:relative; 
+	clear:both; 
+	background-color:#fff;
+	border:5px solid #fff;
+}

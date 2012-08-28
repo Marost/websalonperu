@@ -1,0 +1,35 @@
+#nombres_form{
+	width:230px;
+	float:left;
+}
+
+#cajas_form{
+	width:320px;
+	float:right;
+}
+
+#item_form{
+	width:230px;
+	text-align:right;
+	height:25px;
+}
+
+#item_caja_form{
+	width:320px;
+	text-align:left;
+	height:25px;
+}
+
+#item_caja_textarea{
+	width:320px;
+	text-align:left;
+}
+
+
+#boton_form{
+	width:500px;
+	height:40px;
+	text-align:center;
+	padding-top:10px;
+	float:left;
+}
