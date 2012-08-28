@@ -269,8 +269,29 @@ div#footer{
 }
 
 #menu{
-	width:240px;
+	width:225px;
 	float:left;
+	padding:15px 0 20px 15px;
+}
+
+#menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	line-height:150%;
+}
+
+#menu ul li a{
+	display:block;
+	padding:4px 0 0 30px;
+	background-image:url(../imagenes/check.png);
+	background-repeat:no-repeat;
+	background-position:3px 5px;
+	height:24px;
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+	left:10px;
 }
 
 #link1{

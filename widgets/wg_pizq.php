@@ -1,3 +1,37 @@
+<!-- ANIMACION MENU -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+var jMenu = jQuery.noConflict();
+jMenu(document).ready(function(){
+	jMenu(".menu_item span").animate({paddingLeft: "0px"}, "fast" );
+	jMenu(".wg_m span").mouseover(function(){
+		jMenu(".menu_item span").animate({paddingLeft: "0px"}, "fast" );
+		jMenu(this).animate({paddingLeft: "20px"}, "normal" );
+		jMenu(this).mouseout(function(){
+			jMenu(this).animate({paddingLeft: "0px"}, "fast" );
+		});
+	});
+});
+</script>
+
+<div id="menu">
+				                
+    <ul>
+        <li><a class="menu_item wg_m" href="/"><span>Inicio</span></a></li>
+        <li><a class="menu_item wg_m" href="quienes-somos"><span>Quienes Somos</span></a></li>
+        <li><a class="menu_item wg_m" href="organizacion"><span>Organización</span></a></li>
+        <li><a class="menu_item wg_m" href="informacion-comercial"><span>Información Comercial</span></a></li>
+        <li><a class="menu_item wg_m" href="programa-actividades"><span>Programa de Actividades</span></a></li>
+        <li><a class="menu_item wg_m" href="como-llegar"><span>Como Llegar</span></a></li>
+        <li><a class="menu_item wg_m" href="hoteles-turismo"><span>Hoteles y Turismo</span></a></li>
+        <li><a class="menu_item wg_m" href="noticias-enlaces-interes"><span>Noticias y Enlaces De Interés</span></a></li>
+        <li><a class="menu_item wg_m" href="suscripcion-contacto"><span>Suscripción y Contacto</span></a></li>
+        <li><a class="menu_item wg_m" href="edicion-anterior"><span>Edición Anterior</span></a></li>
+    </ul>
+
+</div>
+
+
 <div id="content_pagina_der2">
     <div class="text_sup_der">Publcidad</div>
 
