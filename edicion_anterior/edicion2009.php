@@ -89,74 +89,9 @@
 </div>
             <!--MENU Y CONTENIDO IZQUIERDO-->
             <div id="menu_contenido_izq">
-              <div id="menu">
-                <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="240" height="320">
-                  <param name="movie" value="../flash/menu_frame.swf" />
-                  <param name="quality" value="high" />
-                  <param name="wmode" value="opaque" />
-                  <param name="swfversion" value="8.0.35.0" />
-                  <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
-                  <param name="expressinstall" value="../Scripts/expressInstall.swf" />
-                  <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
-                  <!--[if !IE]>-->
-                  <object type="application/x-shockwave-flash" data="../flash/menu_frame.swf" width="240" height="320">
-                    <!--<![endif]-->
-                    <param name="quality" value="high" />
-                    <param name="wmode" value="opaque" />
-                    <param name="swfversion" value="8.0.35.0" />
-                    <param name="expressinstall" value="../Scripts/expressInstall.swf" />
-                    <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
-                    <div>
-                      <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>
-                      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" /></a></p>
-                    </div>
-                    <!--[if !IE]>-->
-                  </object>
-                  <!--<![endif]-->
-                </object>
-</div>
-              <div class="espacio"></div>
-              <div class="espacio"></div>
-              <div class="espacio"></div>
               
-              <div id="content_pagina_der2">
-    <div class="text_sup_der">Auspiciadores</div>
-    <div class="text_sup_der"><a href="http://www.promperu.gob.pe/" target="_blank"><img src="../imagenes/patrocinadores/promperu-logo.jpg" alt="" width="130" height="50" /></a></div>
-    <div class="text_sup_der"><a href="http://www.barcelonesa-peugeot-business.com/" target="_blank"><img src="../imagenes/patrocinadores/peugeot.jpg" alt="" /></a></div>
-    <div class="espacio"></div>
-  </div>
-  
-  <div id="content_pagina_der2">
-    <div class="text_sup_der"> Representantes</div>
-    <div class="text_sup_der"><a href="http://femip.org/" target="_blank"><img src="../imagenes/patrocinadores/brugafi.jpg" alt="" width="170" height="50" /></a></div>
-    <div class="espacio"></div>
-    <div class="espacio"></div>
-  </div>
-  
-  <div id="content_pagina_der2">
-    <div class="text_sup_der"> Colaboradores</div>
-    <div class="text_sup_der"><a href="http://marostdevelopers.com/" target="_blank"><img src="../imagenes/patrocinadores/marost.jpg" alt="" width="120" height="50" /></a></div>
-    <div class="espacio"></div>
-    <div class="espacio"></div>
-  </div>
-  
-  <div id="content_pagina_der2">
-    <div class="text_sup_der">Siguenos en:</div>
-    <div class="info_sombra_der"></div>
-    <div class="info_contenido_der">
-      <p><a href="http://www.youtube.com/user/salonperu" target="_blank">
-        <img src="../imagenes/youtube.jpg" alt="YOUTUBE" width="105" height="45" border="0" /></a></p>
-      <p>&nbsp;</p>
-      <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FSalon-Per%25C3%25BA%2F155052567859011&amp;width=200&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;height=258&amp;appId=217179171676130" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:258px;" allowTransparency="true"></iframe>
-    </div>
-    <div class="info_inferior_der"></div>
-  </div>
+			  <?php include("../widgets/wg_pizq.php") ?>
               
-              <div id="content_pagina_der2">
-                <div class="espacio"></div>
-                <div class="espacio"></div>
-              </div>
-              <div> </div>
             </div>
             <!-- CONTENIDO -->
 <div id="contenido_info">
@@ -196,21 +131,12 @@
       </div>
     </div>
 </div>
-<div id="todo_footer">
-	<div class="interior">
-        <div id="footer">
-          <div class="contenido_footer">
-          <p align="center"><a href="../index.php">Inicio</a> | <a href="../quienes_somos.php">Quienes Somos</a> | <a href="../organizacion.php">Organización</a> | <a href="../informacion_comercial.php">Información Comercial</a> | <a href="../programa_actividades.php">Programa de Actividades</a><br />
-            <a href="../como_llegar.php">Como Llegar</a> | <a href="../hoteles_turismo.php">Hoteles y Turismo</a> | <a href="../noticias_enlaces.php">Noticias y Enlaces de Interes</a> | <a href="../suscripcion-contacto.php">Suscripción y Contacto</a></p>
-        </div>
-            <div class="copy">&copy; Web Design: <a href="http://www.marostdevelopers.com" target="_blank">MAROST</a></div>
-        </div>
-	</div>
-    </div>
+
+<?php require_once("../footer.php"); ?>
+
 <script type="text/javascript">
 <!--
 swfobject.registerObject("FlashID2");
-swfobject.registerObject("FlashID");
 //-->
 </script>
 </body>

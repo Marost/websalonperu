@@ -91,29 +91,9 @@
 <table border="0" cellspacing="1" cellpadding="5" width="520" align="center">
 
 <tbody>
-
-<tr>
-  <td valign="middle" class="texto_13rojo-Arial">FEMIP</td>
-  <td>&nbsp;</td>
-</tr>
-<tr>
-  <td valign="middle" bgcolor="#FF9900"><p><strong>Sr. Julio Salazar</strong></p>
-    Presidente Femip</td>
-  <td bgcolor="#FF9900"><p>U.S.A.2800 Island Blvd Apt 2603 </p>
-    <p>Williams Island / Aventura, FL 33160 - USA</p>
-<p><span lang="EN-GB" xml:lang="EN-GB">Telf: 305</span> 409 9095 / Fax: 305 936 9683</p></td>
-</tr>
-<tr>
-  <td valign="middle" bgcolor="#F1C73D"><strong>Monique Pineda</strong></td>
-  <td bgcolor="#F1C73D">&nbsp;</td>
-</tr>
-<tr>
-  <td valign="middle">&nbsp;</td>
-  <td>&nbsp;</td>
-</tr>
 <tr>
   <td colspan="2" valign="middle"><strong class="texto_13rojo-Arial">SALÓN PERÚ A.C.</strong></td>
-  </tr>
+</tr>
 <tr>
 
 <td width="33%" valign="middle"><p><strong>Tito Acedo</strong></p>
@@ -121,20 +101,20 @@
 
 <td width="67%">
 
-<p>Telf.   9311 21686 – 606393904   </p>
+<p> Telf. 9311 21686 – 606393904 </p>
 
 <p><a href="mailto:presidencia@salonperu.org">presidencia@salonperu.org</a></p></td></tr>
 
 <tr valign="top">
-  <td valign="middle" bgcolor="#FF9900"><p><strong>Miguel Angel Fernandez</strong></p>
-    <p>Director Ejecutivo</p></td>
-  <td bgcolor="#FF9900"><p>Telf. 0034 625066056</p>
-    <p><a href="mailto:delegadofepercat@salonperu.org">delegadofepercat@salonperu.org</a></p></td>
+  <td valign="middle" bgcolor="#FF9900"><p> <strong>Miguel Escobar</strong></p>
+    <p> Vice- Presidente </p></td>
+  <td bgcolor="#FF9900"><p> Telf. 0034 606454528 </p>
+    <p><a href="mailto:vice-presidente@salonperu.org">vice-presidente@salonperu.org</a></p></td>
 </tr>
 <tr>
   <td width="33%" valign="middle"> <p><strong>Gisella Ramirez</strong></p>
     <p>Secretaria General</p></td>
-  <td width="67%"> <p>Telf. 0034 696071910</p>
+  <td width="67%"> <p> Telf. 0034 696071910 </p>
     <p><a href="mailto:secretariageneral@salonperu.org">secretariageneral@salonperu.org</a></p></td>
 </tr>
 <tr>
@@ -146,7 +126,7 @@
 <tr valign="top">
   <td valign="middle"><p><strong>Manuel López</strong></p>
     <p>Comunicaciones</p></td>
-  <td><a href="mailto:admin@salonperu.org">admin@salonperu.org</a></td>
+  <td valign="middle"><a href="mailto:comunicaciones@salonperu.org">comunicaciones @salonperu.org</a></td>
 </tr>
 <tr valign="top">
   <td valign="middle" bgcolor="#FF9900"><p><strong>Nelly Herrera</strong></p>
@@ -162,30 +142,31 @@
   <td colspan="2" valign="middle"><strong>Vocales</strong></td>
 </tr>
 <tr>
-  <td valign="middle"><strong> Carlos Cuba Arroyo </strong></td>
-  <td><a href="mailto:carlos.guillermo.cuba.arroyo@hotmail.com" target="_blank">carlos.guillermo.cuba.arroyo@hotmail.com</a></td>
+  <td valign="middle" bgcolor="#FF9900"><p><strong> Carlos Cuba Arroyo</strong></p>
+    <p> Nuevas Tecnologías y Energías Renovables </p></td>
+  <td bgcolor="#FF9900"> Telf. 00 34 686094937 </td>
 </tr>
 <tr>
-  <td valign="middle" bgcolor="#FF9900"><strong>Jordi Ortega</strong></td>
+  <td valign="middle">&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="2" valign="middle"><p><strong>Consultores y Asesores Externos</strong></p></td>
+  </tr>
+<tr>
+  <td valign="middle" bgcolor="#FF9900"><p><strong>Guido Rocafort Calvet</strong></p></td>
   <td bgcolor="#FF9900">&nbsp;</td>
 </tr>
 <tr>
-  <td valign="middle"> <strong>Richard Castañeda</strong></td>
-  <td> <p><a href="mailto:admin@salonperu.org">admin@salonperu.org</a><a href="mailto:yopachitea1509@hotmail.com"></a></p></td>
+  <td valign="middle"><strong>Miguel Esteve</strong></td>
+  <td>&nbsp;</td>
 </tr>
 <tr>
-  <td valign="middle" bgcolor="#FF9900"><strong>Patricia Huacacolque</strong></td>
-  <td bgcolor="#FF9900"><a href="mailto:comunicaciones@salonperu.org">comunicaciones@salonperu.org</a></td>
-</tr>
-<tr>
-  <td valign="middle"><strong> Josep Ferrus </strong></td>
-  <td> <p>Telf. 0034 616612550</p>
-    <a href="mailto:ferpan300@hotmail.com">ferpan300@hotmail.com</a></td>
-</tr>
-<tr>
-  <td valign="middle" bgcolor="#FF9900"><p><strong>Brenda Becerra</strong></p></td>
-  <td bgcolor="#FF9900"><p>Telf. 0034 687390397</p>
-    <a href="mailto:brenda_ebg@hotmail.com">brenda_ebg@hotmail.com</a></td>
+  <td valign="middle" bgcolor="#FF9900"><p><strong>Sr. Julio Salazar</strong></p>
+    Presidente Femip</td>
+  <td bgcolor="#FF9900"><p>U.S.A.2800 Island Blvd Apt 2603 </p>
+    <p>Williams Island / Aventura, FL 33160 - USA</p>
+    <p><span lang="EN-GB" xml:lang="EN-GB">Telf: 305</span> 409 9095 / Fax: 305 936 9683</p></td>
 </tr>
 </tbody>
 </table></div>
