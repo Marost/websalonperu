@@ -32,7 +32,9 @@ $noticia_imagen_carpeta=$fila_noticia["carpeta_imagen"];
 <meta property="og:type" content="article" />
 <meta property="og:url" content="<?php echo $urlweb; ?>" />
 <meta property="og:image" content="<?php echo $web."imagenes/upload/".$noticia_imagen_carpeta."".$noticia_imagen; ?>" />
-<meta property="og:site_name" content="<?php echo $web_nombre; ?>" />
+<meta property="og:image:width" content="140" />
+<meta property="og:image:height" content="140" />
+<meta property="og:description" content="<?php echo soloDescripcion($noticia_contenido); ?>" />
 <meta property="fb:admins" content="1376286793" />
 
 <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>

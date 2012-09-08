@@ -336,6 +336,16 @@ function primerParrafo($texto){
 	}
 }
 
+function soloDescripcion($texto){
+	$b_superior="</p>";
+	$e_parrafo="<p>";
+	if(ereg($b_superior, $texto)){
+		$total=explode($b_superior, $texto);
+		$parrafo=explode($e_parrafo,$total[0]);
+		return $parrafo[1];
+	}
+}
+
 function fechaCarpeta(){
 	$meses = array("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre");
 	$mes = date(n)-1; // devuelve el número del mes
