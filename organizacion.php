@@ -15,6 +15,20 @@
 <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
 <script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34395601-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 </head>
 
 <body>
@@ -108,8 +122,7 @@
 <tr valign="top">
   <td valign="middle" bgcolor="#FF9900"><p> <strong>Miguel Escobar</strong></p>
     <p> Vice- Presidente </p></td>
-  <td bgcolor="#FF9900"><p> Telf. 0034 606454528 </p>
-    <p><a href="mailto:vice-presidente@salonperu.org">vice-presidente@salonperu.org</a></p></td>
+  <td bgcolor="#FF9900"><p><a href="mailto:vice-presidente@salonperu.org">vice-presidente@salonperu.org</a></p></td>
 </tr>
 <tr>
   <td width="33%" valign="middle"> <p><strong>Gisella Ramirez</strong></p>
@@ -158,8 +171,12 @@
   <td bgcolor="#FF9900">&nbsp;</td>
 </tr>
 <tr>
-  <td valign="middle"><strong>Miguel Esteve</strong></td>
-  <td>&nbsp;</td>
+  <td valign="middle"><p><strong>Miguel Esteve</strong></p>
+    <p>M&E Asociados</p></td>
+  <td> <p>Telf. +34934393801 /   Móvil: +34658245210</p>
+    <p> Móvil en Perú: +51999377636</p>
+    <p><a href="http://fr.mc289.mail.yahoo.com/mc/compose?to=miguel.esteve%40measociados.es" rel="nofollow" target="_blank">miguel.esteve@measociados.es</a></p>
+    <p> <a title="blocked::http://www.miguelesteve.com/" href="http://www.miguelesteve.com/" rel="nofollow" target="_blank">www.miguelesteve.com</a></p></td>
 </tr>
 <tr>
   <td valign="middle" bgcolor="#FF9900"><p><strong>Sr. Julio Salazar</strong></p>
@@ -167,6 +184,10 @@
   <td bgcolor="#FF9900"><p>U.S.A.2800 Island Blvd Apt 2603 </p>
     <p>Williams Island / Aventura, FL 33160 - USA</p>
     <p><span lang="EN-GB" xml:lang="EN-GB">Telf: 305</span> 409 9095 / Fax: 305 936 9683</p></td>
+</tr>
+<tr>
+  <td valign="middle" bgcolor="#FF9900">&nbsp;</td>
+  <td bgcolor="#FF9900">&nbsp;</td>
 </tr>
 </tbody>
 </table></div>

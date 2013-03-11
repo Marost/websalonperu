@@ -4,7 +4,7 @@ $conexion=mysql_connect("localhost","salonper_WAdmSP","znU=hT@K[u7sJc9Jzx");
 mysql_select_db("salonper_slperupry12",$conexion);
 
 //ZONA HORARIA
-date_default_timezone_set('Europe/Madrid');
+date_default_timezone_set('America/Lima');
 
 //VARIABLES GLOBALES
 global $carpeta_admin;
