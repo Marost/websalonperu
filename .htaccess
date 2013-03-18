@@ -2,6 +2,7 @@ Options +FollowSymLinks
 RewriteEngine On
 RewriteRule ^noticias$											/noticias.php
 RewriteRule ^noticia/([0-9]*)-(.*)$								/nota.php?id=$1&url=$2
+RewriteRule ^fotos/([0-9]*)-(.*)$								/galeria.php?id=$1&url=$2
 RewriteRule ^hoteles-turismo$									/hoteles_turismo.php
 RewriteRule ^quienes-somos$										/quienes_somos.php
 RewriteRule ^organizacion$										/organizacion.php
