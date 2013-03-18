@@ -31,7 +31,7 @@ jmnpr(document).ready(function(){
     <ul class="items">
       <li><a href="<?php echo $web."".$carpeta_admin; ?>/paginas/noticias/noticias/listar.php">
         	Noticias</a></li>
-      <li><a href="<?php echo $web."".$carpeta_admin; ?>/paginas/galeria/listar.php">
+      <li><a href="<?php echo $web."".$carpeta_admin; ?>/paginas/fotos/listar.php">
         	Galeria Fotos</a></li>
     </ul>
   </dd>
