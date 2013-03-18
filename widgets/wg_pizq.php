@@ -27,6 +27,7 @@ jMenu(document).ready(function(){
         <li><a class="menu_item wg_m" href="/noticias"><span>Noticias</span></a></li>
         <li><a class="menu_item wg_m" href="/suscripcion-contacto"><span>Suscripción y Contacto</span></a></li>
         <li><a class="menu_item wg_m" href="/edicion-anterior"><span>Edición Anterior</span></a></li>
+        <li><a class="menu_item wg_m" href="/fotos"><span>Galería de Fotos</span></a></li>
     </ul>
 
 </div>
