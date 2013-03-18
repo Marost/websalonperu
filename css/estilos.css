@@ -793,3 +793,7 @@ form#ficha_inscripcion fieldset label{ width:200px; float:left; text-align:right
 	background-color:#fff;
 	border:5px solid #fff;
 }
+
+/* SECTION NEWS - GALLERIA */
+#galleria{ height:580px; margin:0 0 10px 0; }
+#galleria .galleria-container{ height: 520px !important; }
