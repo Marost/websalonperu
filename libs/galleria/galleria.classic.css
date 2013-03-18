@@ -116,6 +116,8 @@
     height: 20px;
     cursor: pointer;
     background-color: #000;
+	display:none;
+	visibility:hidden;
 }
 .notouch .galleria-info-link:hover {
     opacity: 1;
