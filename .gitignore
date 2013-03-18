@@ -169,5 +169,5 @@ recursos/
 _notes/
 *.pdf
 *.psd
-fotos/
+imagenes/galeria/fotos/
 */conexion.php
